@@ -15,6 +15,9 @@ body {
     top: 0px;
     z-index: 100;
 }
+.menu .navbar{
+    padding: 0px;
+}
 .navbar, .navbar-toggler{
     color:white
 }
