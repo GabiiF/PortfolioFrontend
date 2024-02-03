@@ -9,6 +9,9 @@ body {
     margin: 0;
     /* background-color: #DADADA;*/
     background-color: #e3e3e3;
+    position: relative;
+    padding-bottom: 9em;
+    min-height: 100vh;
 }
 .menu{
     position: sticky;
@@ -412,6 +415,17 @@ p.card-text {
 }
 .card-body {
     --bs-card-spacer-x: 0.8rem;
+}
+
+#pie{
+    color: white;
+    font-size: 100%;
+    font-family: 'Hind Vadodara', sans-serif;
+    background-color: #efa79f;
+    padding: 0em 2em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 /*---------------------- Termina Idiomas ---------------------------*/
 @media only screen and (min-width: 320px) and (max-width: 544px) {
